@@ -25,6 +25,10 @@ namespace DutchTreat
             if (env.IsDevelopment()) { 
             app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/error");
+            }
 
             app.UseStaticFiles();
             
