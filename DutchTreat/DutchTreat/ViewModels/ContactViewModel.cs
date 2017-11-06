@@ -10,6 +10,7 @@ namespace DutchTreat.ViewModels
     public class ContactViewModel
     {
         [Required]
+        [MinLength(5, ErrorMessage = "Name was be minimum of 5 characters.")]
         public string Name { get; set; }
         [Required]
         public string Subject { get; set; }
