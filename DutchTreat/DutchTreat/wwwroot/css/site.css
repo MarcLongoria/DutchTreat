@@ -1,5 +1,5 @@
 ﻿
-body{
+/*body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -68,7 +68,7 @@ ul.product-props li {
 
 .popup-Form input[type=checkbox], .popup-Form input[type=submit]{
     width: auto;
-    float: right; /*added by me... not in course*/
+    float: right;
 }
 
 menu li{
@@ -81,4 +81,4 @@ menu li::after{
 
 menu li:last-of-type::after{
     content: "";
-}
+}*/
