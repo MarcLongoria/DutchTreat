@@ -16,7 +16,7 @@ namespace DutchTreat.Data
         }
 
 
-        DbSet<Product> Product { get; set; }
-        DbSet<Order> Orders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
