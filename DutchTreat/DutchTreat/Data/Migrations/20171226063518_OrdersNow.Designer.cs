@@ -11,9 +11,10 @@ using System;
 namespace DutchTreat.Migrations
 {
     [DbContext(typeof(DutchContext))]
-    partial class DutchContextModelSnapshot : ModelSnapshot
+    [Migration("20171226063518_OrdersNow")]
+    partial class OrdersNow
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
